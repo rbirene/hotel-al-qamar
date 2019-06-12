@@ -1,0 +1,180 @@
+/* GENERAL / BY DEFAULT */
+.container-fluid{
+  padding: 0;
+}
+
+body{
+  font: 16px/24px 'Work Sans', sans-serif;
+  color: #464646;
+  overflow-x: hidden;
+  background-color: #f4f7f6;
+}
+
+body a:hover{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Yeseva One', serif;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+hr{
+  background: #464646;
+  margin: 30px 0;
+}
+
+.gold, .gold a{
+  color: #b5ab75;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.gold a:hover{
+  color: #464646;
+}
+
+/*BUTTONS*/
+.btnStyleWhiteFill{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  padding: 5px 20px;
+  color: #464646;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btnStyleWhiteFill:hover{
+  background: #b5ab75;
+  border-color: #b5ab75;
+  color: #fff;
+}
+
+.btnStyleGreyFill{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: #464646;
+  border: 1px solid #464646;
+  border-radius: 0;
+  padding: 5px 20px;
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btnStyleGreyFill:hover{
+  background: #b5ab75;
+  border-color: #b5ab75;
+  color: #fff;
+}
+
+.btnStyleGreyOutline{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0);
+  border: 1px solid #464646;
+  border-radius: 0;
+  padding: 5px 20px;
+  color: #464646;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btnStyleGreyOutline:hover{
+  background: #464646;
+  color: #fff;
+}
+
+/*FORM*/
+.form-control{
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0);
+  border: 1px solid #464646;
+  border-radius: 0;
+  padding: 10px;
+  color: #464646;
+  margin: 5px 0;
+  transition: 0.2s;
+}
+
+.form-row{
+  margin: 20px 0 10px 0;
+}
+
+.form-control:focus{
+  background: #464646;
+  color: #fff;
+  border-color: rgba(255,255,255,0);
+}
+
+.submitBtn{
+  margin: 20px 0 0 0;
+}
+
+.error{
+  color: #e33030;
+}
+
+/*NAV*/
+.logo{
+  width: 100px;
+  height: auto;
+}
+
+nav{
+  padding: 10px 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background: #464646;
+}
+
+nav a{
+  color: #fff;
+  transition: 0.2s;
+  margin: 5px 0 0 0;
+  transition: 0.2s;
+}
+
+nav p a:hover{
+	color: #b5ab75;
+}
+
+/*STEPS BAR*/
+.steps{
+  padding: 20px 10px 10px 10px;
+  background: #b5ab75;
+  text-transform: uppercase;
+}
+
+/*STEP 1*/
+.step1Content{
+  margin: 80px 0;
+}
+
+.step1Img{
+  width: 100%;
+  height: auto;
+}
+
+/*STEP CONTENT*/
+.stepContent{
+	padding: 20px 0 0 0;
+}
+
+/*BOOKING SUMMARY BAR*/
+.bookingSummary{
+  background-color: #687693;
+  color: #fff;
+  height: 100%;
+}

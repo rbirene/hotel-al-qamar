@@ -1,0 +1,91 @@
+/* GENERAL / BY DEFAULT */
+.container-fluid{
+  padding: 0;
+}
+
+body{
+  font: 16px/24px 'Work Sans', sans-serif;
+  color: #464646;
+  overflow-x: hidden;
+  background-color: #687693;
+}
+
+button{
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: serif;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.btnStyleWhiteFill{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  padding: 5px 20px;
+  color: #464646;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btnStyleWhiteFill:hover{
+  background: #b5ab75;
+  border-color: #b5ab75;
+  color: #fff;
+}
+
+/*HEADER*/
+header{
+  position: relative;
+  color: #fff;
+}
+
+.headerImg{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.headerLogo{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.headerLogo img{
+  width: 200px;
+  height: auto;
+}
+
+.headerHeading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.headerBtns{
+  position: absolute;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.headerBtn1{
+  left: 40%;
+  width: 200px;
+}
+
+.headerBtn2{
+  left: 60%;
+}
